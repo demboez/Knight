@@ -6,10 +6,10 @@ Date Released: 31-1-21
 With the WisePhish tool you can create hundreds of Fake phishing links that can grab any victim front facing camera pics and give you your victim IP Address.
 
  <h3>Installation</h3>
+ 
 ```bash
 $ pkg install php
 ```
-
 
 ```bash
 $ pkg install wget
@@ -30,7 +30,7 @@ $ cd wishfish
 $ bash wisephise.sh
  ```
  
-the Servero server is down so Use the ngrok for instant links.
+use Ngrok for the best links
 
 Captured images will be stored in the captured folder:
 
