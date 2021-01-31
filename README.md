@@ -8,12 +8,19 @@ With the WisePhish tool you can create hundreds of Fake phishing links that can 
  <h3>Installation</h3>
 ```bash
 $ pkg install php
+```
+```bash
 $ pkg install wget
+```
+```bash
 $ pkg install openssh
+```
+```bash
 $ git clone https://github.com/MJK11958/WisePhish.git
 ```
 
 <h3>Usage</h3>
+
 ```bash
 $ cd wishfish
 $ bash wisephise.sh
