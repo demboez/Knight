@@ -9,12 +9,15 @@ With the WisePhish tool you can create hundreds of Fake phishing links that can 
 ```bash
 $ pkg install php
 ```
+
 ```bash
 $ pkg install wget
 ```
+
 ```bash
 $ pkg install openssh
 ```
+
 ```bash
 $ git clone https://github.com/MJK11958/WisePhish.git
 ```
