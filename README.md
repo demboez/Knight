@@ -10,6 +10,7 @@ With the WisePhish tool you can create hundreds of Fake phishing links that can 
 $ pkg install php
 ```
 
+
 ```bash
 $ pkg install wget
 ```
