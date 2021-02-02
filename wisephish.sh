@@ -191,7 +191,7 @@ start1
 fi
 
 }
-mask_phish
+
 # Bash Script for Hide Phishing URL Created by KP
 if [[ $option_server -eq 1 ]]; then
 url_checker() {
