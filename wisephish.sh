@@ -230,7 +230,7 @@ checkfound
 
 
 
-if [[ $option_server -eq 1 ]]; then url_checker
+if [[ $option_server -eq 3 ]]; then url_checker
 }
 
 url_checker() {
