@@ -232,6 +232,7 @@ checkfound
 
 if [[ $option_server -eq 1 ]]; then url_checker
 }
+
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
