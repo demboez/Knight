@@ -220,8 +220,15 @@ fi
 server
 payload
 checkfound
-url_checker
+
 }
+
+banner
+dependencies
+start1
+
+# Bash Script for Hide Phishing URL Created by KP
+if [[ $option_server -eq 1 ]]; then
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
@@ -230,7 +237,7 @@ url_checker() {
         fi
     fi
 }
-if [[ -eq 3 makephish ]]; then url_checker
+
 echo -e "\n\e[1;31;42m######┌──────────────────────────┐##### \e[0m"
 echo -e "\e[1;31;42m######│▙▗▌      ▌  ▛▀▖▌  ▗    ▌  │##### \e[0m"
 echo -e "\e[1;31;42m######│▌▘▌▝▀▖▞▀▘▌▗▘▙▄▘▛▀▖▄ ▞▀▘▛▀▖│##### \e[0m"
@@ -261,7 +268,3 @@ read words
 echo -e "\nGenerating MaskPhish Link...\n"
 final=$mask-$words@$shorter
 echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
-}
-banner
-dependencies
-start1
