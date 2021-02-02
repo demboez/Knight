@@ -236,8 +236,7 @@ url_checker() {
         fi
     fi
 }
-if [[ -eq 3 makephish ]]; then
-url_checker
+if [[ -eq 3 makephish ]]; then url_checker
 echo -e "\n\e[1;31;42m######┌──────────────────────────┐##### \e[0m"
 echo -e "\e[1;31;42m######│▙▗▌      ▌  ▛▀▖▌  ▗    ▌  │##### \e[0m"
 echo -e "\e[1;31;42m######│▌▘▌▝▀▖▞▀▘▌▗▘▙▄▘▛▀▖▄ ▞▀▘▛▀▖│##### \e[0m"
