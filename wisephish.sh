@@ -191,7 +191,7 @@ clear
 start1
 fi
 
-elif [[ $option_server -eq 3 ]]; then
+if [[ $option_server -eq 3 ]]; then
 url_checker
 
 }
