@@ -184,8 +184,6 @@ start
 
 elif [[ $option_server -eq 2 ]]; then
 ngrok_server
-else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
 sleep 1
 clear
 start1
@@ -193,6 +191,8 @@ fi
 
 if [[ $option_server -eq 3 ]]; then
 url_checker
+else
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
 
 }
 
