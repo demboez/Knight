@@ -193,7 +193,6 @@ if [[ $option_server -eq 3 ]]; then
 url_checker
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
-
 }
 
 
