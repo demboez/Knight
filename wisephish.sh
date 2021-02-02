@@ -189,10 +189,6 @@ clear
 start1
 fi
 
-if [[ $option_server -eq 3 ]]; then
-url_checker
-else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
 }
 
 
@@ -240,7 +236,8 @@ url_checker() {
         fi
     fi
 }
-if [[ -e makephish ]]; then
+if [[ -eq 3 makephish ]]; then
+url_checker
 echo -e "\n\e[1;31;42m######┌──────────────────────────┐##### \e[0m"
 echo -e "\e[1;31;42m######│▙▗▌      ▌  ▛▀▖▌  ▗    ▌  │##### \e[0m"
 echo -e "\e[1;31;42m######│▌▘▌▝▀▖▞▀▘▌▗▘▙▄▘▛▀▖▄ ▞▀▘▛▀▖│##### \e[0m"
