@@ -230,3 +230,11 @@ banner
 dependencies
 start1
 
+url_checker() {
+    if [ ! "${1//:*}" = http ]; then
+        if [ ! "${1//:*}" = https ]; then
+            echo -e "\e[31m[!] Invalid URL. Please use http or https.\e[0m"
+            exit 1
+        fi
+    fi
+}
