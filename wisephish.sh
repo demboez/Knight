@@ -267,3 +267,5 @@ read words
 echo -e "\nGenerating MaskPhish Link...\n"
 final=$mask-$words@$shorter
 echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
+
+}
