@@ -46,9 +46,10 @@ $ cd WisePhish
 $ bash wisephise.sh
  ```
  
- **Importent notes!**
- ##Android users turn on hotspot before starting WisePhish
- ##It wont work on Chrome!
+ ##**Importent notes!**##
+ 
+Android users turn on hotspot before starting WisePhish
+It wont work on Chrome!
 
 Captured images will be stored in the captured folder, if not type:
 
@@ -58,7 +59,7 @@ $ ./copy.sh
 ```
 ## Screenshot
 <p align="center">
-	<img src="https://imgur.com/jw63Luc" width="600px">
+	<img src="https://ibb.co/3rGFSfC" width="600px">
 </p>
 
 A special thank you to JayKali for his tool MaskPhish
