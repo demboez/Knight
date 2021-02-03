@@ -59,7 +59,7 @@ $ ./copy.sh
 ```
 ## Screenshot
 <p align="center">
-  <img src="https://i.imgur.com/xORCabx.png" width="350" title="hover text">
+  <img src="https://i.imgur.com/xORCabx.png" width="600" title="hover text">
 </p>
 
 A special thank you to JayKali for his tool MaskPhish
