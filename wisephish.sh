@@ -5,6 +5,7 @@
 
 trap 'printf "\n";stop' 2
 
+
 banner() {
 
 clear
