@@ -11,11 +11,13 @@ Last Update: 03-2-2021
 With WisePhish tool you can use phising pages that no only collets the targets IP Address but also takes snaps from the targets front facing camera and sends it back to you.
 
 ## Legal Disclaimer:
-## Usage of WisePhish for attacking targets without prior mutual consent is illegal.i am not responsible for any misuse or damage caused by this tool
+
+Usage of WisePhish for attacking targets without prior mutual consent is illegal.i am not responsible for any misuse or damage caused by this tool
 
 
- UPDATE 1.1:
- ## A new version of WisePhish have been uploded, here's whats new:
+## A new version of WisePhish have been uploded, here's whats new:
+ 
+ 
  1 - Ngrok.io links works perfectly now on any machine
  --
  2 - Serveo.net option has been removed because it was too unstable
@@ -59,7 +61,7 @@ $ ./copy.sh
 ```
 ## Screenshot
 <p align="center">
-	<img src="https://imgur.com/a/p6TTf36" width="600px">
+	<img src="https://imgur.com/jw63Luc" width="600px">
 </p>
 
 A special thank you to JayKali for his tool MaskPhish
