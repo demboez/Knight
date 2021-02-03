@@ -59,7 +59,7 @@ $ ./copy.sh
 ```
 ## Screenshot
 <p align="center">
-	<img src="https://pasteboard.co/JMzvGV3.png" width="600px" title="wise">>
+	![Alt text](https://pasteboard.co/JMzvGV3.png "screenshot")
 </p>
 
 A special thank you to JayKali for his tool MaskPhish
