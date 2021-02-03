@@ -15,14 +15,11 @@ With WisePhish tool you can use phising pages that no only collets the targets I
 Usage of WisePhish for attacking targets without prior mutual consent is illegal.i am not responsible for any misuse or damage caused by this tool
 
 
-## A new version of WisePhish have been uploded, here's whats new:
+## A new version of WisePhish have been uploded, here's whats new: ##
  
- 
- 1 - Ngrok.io links works perfectly now on any machine
- --
- 2 - Serveo.net option has been removed because it was too unstable
- --
- 3 - MaskPhish has been added to the tool and now you can hide your links behind any URL you want
+ 1. - Ngrok.io links works perfectly now on any machine
+ 2. - Serveo.net option has been removed because it was too unstable
+ 3. - MaskPhish has been added to the tool and now you can hide your links behind any URL you want
  
  <h3>Installation</h3>
  
