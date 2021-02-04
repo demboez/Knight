@@ -6,7 +6,7 @@ Last Update: 03-2-2021
 
 ## Author: https://github.com/mjk11958
 ## Twitter:https://twitter.com/THEMJ1195
-## Telegram: https://t.me/MJK11958
+## Telegram: https://t.me/TheRealOGMJK
 
 With WisePhish tool you can use phising pages that no only collets the targets IP Address but also takes snaps from the targets front facing camera and sends it back to you.
 
@@ -62,5 +62,5 @@ $ ./copy.sh
   <img src="https://i.imgur.com/xORCabx.png" width="600" title="hover text">
 </p>
 
-A special thank you to JayKali for his tool MaskPhish
+A special thank you to JayKali for her tool MaskPhish
 https://github.com/jaykali/maskphish
