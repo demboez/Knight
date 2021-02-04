@@ -4,8 +4,8 @@ Date Created: 12-12-20
 Date Released: 31-1-21
 Last Update: 03-2-2021
 
-## Author: https://github.com/mjk11958
-## Twitter:https://twitter.com/THEMJ1195
+## Author: https://github.com/MJK11958
+## Twitter:https://twitter.com/MJK11958
 ## Telegram: https://t.me/TheRealOGMJK
 
 With WisePhish tool you can use phising pages that no only collets the targets IP Address but also takes snaps from the targets front facing camera and sends it back to you.
