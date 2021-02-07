@@ -6,7 +6,7 @@ Last Update: 03-2-2021
 
 ## Author: https://github.com/MJK11958
 ## Twitter:https://twitter.com/MJK11958
-## Telegram: https://t.me/TheRealOGMJK
+## Telegram: https://t.me/mjkgroup
 
 With WisePhish tool you can use phising pages that no only collets the targets IP Address but also takes snaps from the targets front facing camera and sends it back to you.
 
@@ -20,6 +20,7 @@ Usage of WisePhish for attacking targets without prior mutual consent is illegal
  1. - Ngrok.io links works perfectly now on any machine
  2. - Serveo.net option has been removed because it was too unstable
  3. - MaskPhish has been added to the tool and now you can hide your links behind any URL you want
+
  
  <h3>Installation</h3>
  
