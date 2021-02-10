@@ -1,26 +1,26 @@
-# WisePhish
+# Knight
 
-Date Created: 12-12-20
-Date Released: 31-1-21
-Last Update: 03-2-2021
+<p align="center">
+  <img src="https://imgur.com/mIQh05m.png" width="600" title="hover text">
+</p>
 
-## Author: https://github.com/MJK11958
-## Twitter:https://twitter.com/MJK11958
-## Telegram: https://t.me/mjkgroup
+[![Github](https://img.shields.io/github/followers/mjk11958?label=Follow&style=social)](https://github.com/MJK11958)
 
-With WisePhish tool you can use phising pages that no only collets the targets IP Address but also takes snaps from the targets front facing camera and sends it back to you.
+[![Twitter](https://img.shields.io/twitter/follow/mjk11958?style=social)](https://twitter.com/MJK11958)
 
-## Legal Disclaimer:
-
-Usage of WisePhish for attacking targets without prior mutual consent is illegal.i am not responsible for any misuse or damage caused by this tool
-
-
-## A new version of WisePhish have been uploded, here's whats new: ##
+The Knight tool is a tool for both BruteForcing and phising your targets.
  
- 1. - Ngrok.io links works perfectly now on any machine
- 2. - Serveo.net option has been removed because it was too unstable
- 3. - MaskPhish has been added to the tool and now you can hide your links behind any URL you want
+ ## Update 2.0 Notes ##
+ 1. WisePhish has been renamed to Knight
+ 2. -You have now 3 Options when starting Knight.sh:
+ 
+WisePhish - Create Phising Links to snap targets front camera and he's IP Adress
 
+MaskPhish - Hide you Phising links (By JayKali)  
+ 
+KnightForce - Social Media BruteForce tool
+
+ 3. - Serveo.net links are back only in KnightForce!
  
  <h3>Installation</h3>
  
@@ -37,31 +37,37 @@ $ pkg install openssh
 ```
 
 ```bash
-$ git clone https://github.com/MJK11958/WisePhish.git
+$ git clone https://github.com/MJK11958/Knight.git
 ```
 
 <h3>Usage</h3>
 
 ```bash
-$ cd WisePhish
-$ bash wisephise.sh
+$ cd Knight
+$ bash install.sh
+$ bash knight.sh
  ```
  
- ##**Importent notes!**##
- 
-Android users turn on hotspot before starting WisePhish
-It wont work on Chrome!
-
-Captured images will be stored in the captured folder, if not type:
+ Captured images will be stored in the captured folder, if not type:
 
 ```bash
 $ chmod +x copy.sh
 $ ./copy.sh
 ```
+
+ ##**Importent notes!**##
+ 
+**Android users turn on hotspot before starting WisePhish.**
+
+**It wont work on Google Chrome!**
+
+**You must bash install.sh for KnightForce to work.**
+
 ## Screenshot
 <p align="center">
-  <img src="https://i.imgur.com/xORCabx.png" width="600" title="hover text">
+  <img src="https://imgur.com/xz8zSiY.png" width="600" title="hover text">
 </p>
 
-A special thank you to JayKali for her tool MaskPhish
-https://github.com/jaykali/maskphish
+**Date Created: 12-12-20**|
+**Date Released: 31-1-21**|
+**Lastet Update: 10-2-21**
