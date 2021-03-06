@@ -4,9 +4,9 @@
   <img src="https://imgur.com/mIQh05m.png" width="600" title="hover text">
 </p>
 
-[![Github](https://img.shields.io/github/followers/mjk11958?label=Follow&style=social)](https://github.com/MJK11958)
+[![Github](https://img.shields.io/github/followers/Jambo?label=Follow&style=social)](https://github.com/JamboHS)
 
-[![Twitter](https://img.shields.io/twitter/follow/mjk11958?style=social)](https://twitter.com/MJK11958)
+[![Twitter](https://img.shields.io/twitter/follow/Jambo?style=social)](https://twitter.com/JamboHS)
 
 The Knight tool is a tool for both BruteForcing and phising your targets.
  
@@ -37,7 +37,7 @@ $ pkg install openssh
 ```
 
 ```bash
-$ git clone https://github.com/MJK11958/Knight.git
+$ git clone https://github.com/JamboHS/Knight.git
 ```
 
 <h3>Usage</h3>

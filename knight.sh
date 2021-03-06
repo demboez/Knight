@@ -1,6 +1,6 @@
 #!/bin/bash
 # Inspired by: github.com/ALKR-HACKHECKZ/wishfish
-# Modified by: github.com/mjk11958/WisePhish
+# Modified by: github.com/JamboHS/
 # Bash Script for Hide Phishing URL Created by KP
 
 trap 'printf "\n";stop' 2
@@ -17,7 +17,7 @@ printf " \e[91m ██╔═██╗ ██║╚██╗██║██║█
 printf " \e[91m ██║  ██╗██║ ╚████║██║╚██████╔╝██║  ██║   ██║   \e[0m\n"  
 printf " \e[91m ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   \e[0m\n"  
 printf "\e[1;77m Version 2.0 \e[0m \n"
-printf "\e[1;77m Coded By MJK11958 \e[0m \n"
+printf "\e[1;77m Coded By JamboHS \e[0m \n"
 printf "\e[1;77m Is it just me or is it getting crazier out there?\e[0m \n"
 }
 
