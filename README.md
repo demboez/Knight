@@ -4,9 +4,10 @@
   <img src="https://imgur.com/mIQh05m.png" width="600" title="hover text">
 </p>
 
-[![Github](https://img.shields.io/github/followers/Jambo?label=Follow&style=social)](https://github.com/JamboHS)
+[![Github](https://img.shields.io/github/followers/JamboHS?label=Follow&style=social)](https://github.com/JamboHS)
 
-[![Twitter](https://img.shields.io/twitter/follow/Jambo?style=social)](https://twitter.com/JamboHS)
+[![Twitter](https://img.shields.io/twitter/follow/JamboHS?style=social)](https://twitter.com/JamboHS)
+
 
 The Knight tool is a tool for both BruteForcing and phising your targets.
  
