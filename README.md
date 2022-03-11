@@ -8,6 +8,7 @@
 </p>
 
 [![Github](https://img.shields.io/github/followers/Kunnskap9?label=Follow&style=social)](https://github.com/JamboHS)
+[![Twitter](https://img.shields.io/twitter/follow/thekunnskap9)
 
 The Knight tool is a tool for both BruteForcing and phising your targets.
  
