@@ -1,25 +1,48 @@
 # Knight
 
-
 <p align="center">
   <img src="https://imgur.com/mIQh05m.png" width="600" title="hover text">
 </p>
 
-Knight is a tool for BruteForcing and phising targets.
+[![Github](https://img.shields.io/github/followers/JamboHS?label=Follow&style=social)](https://github.com/JamboHS)
 
-## Update 3.0 Notes ##
+The Knight tool is a tool for both BruteForcing and phising your targets.
  
+ ## Update 2.0 Notes ##
+ 1. WisePhish has been renamed to Knight
+ 2. -You have now 3 Options when starting Knight.sh:
+ 
+WisePhish - Create Phising Links to snap targets front camera and he's IP Adress
+
+MaskPhish - Hide you Phising links (By JayKali)  
+ 
+KnightForce - Social Media BruteForce tool
+
+ 3. - Serveo.net links are back only in KnightForce!
  
  <h3>Installation</h3>
  
 ```bash
-$ git clone https://github.com/Kunnskap9/Knight && cd Knight
-$ bash install.sh
+$ pkg install php
+```
+
+```bash
+$ pkg install wget
+```
+
+```bash
+$ pkg install openssh
+```
+
+```bash
+$ git clone https://github.com/JamboHS/Knight.git
 ```
 
 <h3>Usage</h3>
 
 ```bash
+$ cd Knight
+$ bash install.sh
 $ bash knight.sh
  ```
  
@@ -33,11 +56,16 @@ $ ./copy.sh
  ##**Importent notes!**##
  
 **Android users turn on hotspot before starting WisePhish.**
-**You must bash install.sh for Knight to work.**
+
+**It wont work on Google Chrome!**
+
+**You must bash install.sh for KnightForce to work.**
 
 ## Screenshot
 <p align="center">
   <img src="https://imgur.com/xz8zSiY.png" width="600" title="hover text">
 </p>
-**Rease Date: 31-1-21**
-**Lastet Update:
+
+**Date Created: 12-12-20**|
+**Date Released: 31-1-21**|
+**Lastet Update: 10-2-21**

