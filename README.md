@@ -5,6 +5,8 @@
   <img src="https://imgur.com/mIQh05m.png" width="600" title="hover text">
 </p>
 
+🔴🔴***PROJECT NOT MAINTAINED ANYMORE***🔴🔴
+
 Knight is a tool for BruteForcing and phising targets.
  
  <h3>Installation</h3>
