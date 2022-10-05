@@ -4,10 +4,18 @@
 <p align="center">
   <img src="https://imgur.com/mIQh05m.png" width="600" title="hover text">
 </p>
+THIS TOOL IS FOR EDUCATION PURPOSE ONLY. I'M NOT RESPONSIBLE TO ANYTHING YOU DO WITH TOOL.
+
+
 
 🔴🔴***PROJECT NOT MAINTAINED ANYMORE***🔴🔴
-This project is no longer being worked on by the developer.
+
 🔴🔴***PROJECT NOT MAINTAINED ANYMORE***🔴🔴
+
+.
+.
+.
+.
 
 Knight is a tool for BruteForcing and phising targets.
  
