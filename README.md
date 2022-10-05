@@ -6,6 +6,8 @@
 </p>
 
 🔴🔴***PROJECT NOT MAINTAINED ANYMORE***🔴🔴
+This project is no longer being worked on by the developer.
+🔴🔴***PROJECT NOT MAINTAINED ANYMORE***🔴🔴
 
 Knight is a tool for BruteForcing and phising targets.
  
