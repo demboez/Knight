@@ -1,20 +1,15 @@
 # Knight
 
-🔴🔴***PROJECT NOT MAINTAINED ANYMORE***🔴🔴
-
-🔴🔴***PROJECT NOT MAINTAINED ANYMORE***🔴🔴
-
+🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
+***PROJECT NO LONGER MAINTAINED***
+***PROJECT NO LONGER MAINTAINED***
+***PROJECT NO LONGER MAINTAINED***
+🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
 
 <p align="center">
   <img src="https://imgur.com/mIQh05m.png" width="600" title="hover text">
 </p>
 THIS TOOL IS FOR EDUCATION PURPOSES ONLY. I'M NOT RESPONSIBLE TO ANYTHING YOU DO WITH THIS TOOL.
-
-
-
-🔴🔴***PROJECT NOT MAINTAINED ANYMORE***🔴🔴
-
-🔴🔴***PROJECT NOT MAINTAINED ANYMORE***🔴🔴
 
 .
 .
