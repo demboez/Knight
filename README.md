@@ -42,7 +42,7 @@ $ chmod +x copy.sh
 $ ./copy.sh
 ```
 
- ##**Importent notes!**##
+<h3>Importent notes!</h3>
  
  **You must bash install.sh for Knight to work.**
 
