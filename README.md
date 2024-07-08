@@ -46,7 +46,7 @@ $ ./copy.sh
  
  **You must bash install.sh for Knight to work.**
 
-## Screenshot
+## Screenshots
 <p align="center">
   <img src="https://imgur.com/xz8zSiY.png" width="600" title="hover text">
 </p>
