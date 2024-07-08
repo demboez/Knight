@@ -44,7 +44,7 @@ $ ./copy.sh
 
 <h3>Importent notes!</h3>
  
- **You must bash install.sh for Knight to work.**
+ You must bash install.sh for Knight to work.
 
 ## Screenshots
 <p align="center">
